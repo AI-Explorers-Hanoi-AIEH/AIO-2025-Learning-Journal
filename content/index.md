@@ -1,6 +1,6 @@
 ---
 created: 2025-06-10T17:33
-created: 2025-06-10T17:33
+updated: 2025-06-10T17:33
 ---
 # AI Explorers Hanoi (AEIH)
 
