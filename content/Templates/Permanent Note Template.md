@@ -1,6 +1,6 @@
 ---
-updated: 2024-11-13T15:17
-created: 2024-11-02T17:33
+created: <% tp.date.now("YYYY-MM-DDTHH:mm:ss") %> 
+updated: <% tp.date.now("YYYY-MM-DDTHH:mm:ss") %>
 ---
 # {{Title}}
 
