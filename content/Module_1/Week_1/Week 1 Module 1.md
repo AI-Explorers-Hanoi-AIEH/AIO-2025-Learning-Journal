@@ -1,12 +1,11 @@
 ---
-updated: 2024-11-13T15:17
-created: 2024-11-02T17:33
+created: 2025-06-10T17:33
+updated: 2025-06-10T17:33
 ---
 # Week 1 Module 1
-[[Coding Method]]
-[[ABDC123]]
-[[LOOP IN PYHTON]]
-
+## Notes
+[[Coding methodology in Python]]
+[[LOOP IN PYTHON]]
 ---
 # Back Matter
 

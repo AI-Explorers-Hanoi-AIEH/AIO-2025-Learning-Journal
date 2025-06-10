@@ -1,18 +1,5 @@
-# Quartz v4
+# AIEH AIO 2025 Learning Journal
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+We are a group of curious learners participating in **AIO2025**, a program designed to guide us through the fundamentals and applications of Artificial Intelligence. Our backgrounds are diverse - some of us are students, others are early-career professionals or career switchers. What connects us is our shared commitment to **learning deeply**, **asking questions**, and **growing steadily**.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
-
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
-
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
-
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+This is our blog: https://ai-explorers-hanoi-aieh.github.io/AIO-2025-Learning-Journal/

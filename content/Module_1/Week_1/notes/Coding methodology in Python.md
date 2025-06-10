@@ -1,6 +1,6 @@
 ---
-updated: 2024-11-13T15:17
-created: 2024-11-02T17:33
+created: 2025-06-10T17:33
+updated: 2025-06-10T17:33
 ---
 # Coding methodology in Python
 ## Clean Code
@@ -94,31 +94,36 @@ The Zen of Python, by Tim Peters
 - Namespaces are one honking great idea -- let's do more of those!
 ### Pythonic code examples
 Pythonic means making the most of Python's unique features and characteristics to write code. Pythonic code is easy to read, easy to understand, faster, as concise as English reading, and adheres to Python conventions and philosophies
-- List, Dict, Set comprehension![[Pasted image 20250608115351.png]]
-- Context Manager: Context Manager is a resource management mechanism through the with statement, which automatically frees up resources (closing files, closing DB connections, freeing locks...) when the code block ends, even if an error occurs.![[Pasted image 20250608115607.png]]
+- List, Dict, Set comprehension![[Pasted image 20250610135840.png]]
+- Context Manager: Context Manager is a resource management mechanism through the with statement, which automatically frees up resources (closing files, closing DB connections, freeing locks...) when the code block ends, even if an error occurs.![[Pasted image 20250610135859.png]]
 - Properties and underscore in class:
+	- @property: allow to use class method as an attribute, make code cleaner and easier to access.
+	- Single underscore (\_var): private class attribute. Still can access from outside the class, but this is the sign about: "not using this directly"
+	- Double underscore on left and right: magic/dunder method (init)
+	- Double underscore: name mangling
 ## General Principles for Writing Good Code
+### DRY (Don't Repeat Yourself)
+- Write your code so that you don't have the same information or instructions in multiple spaces. If you need to change something, you only change it once.
+### YAGNI (You Aren't Gonna Need It)
+- You should only build things when you actually need them, not because you think you might need them in the future. It help keeps code simple and avoid wasted effort.
+### KISS (Keep It Simple, Stupid)
+- You should always try to make your code as simple, straightforward as possible, even if the problem is complex. Simpler
+### Defensive programming
+- Writing your code with the mindset to expect and handle things that could go wrong, like bad user input or unexpected situations. It's like building safety net to prevent your program to failed or acting weirdly.
+### Separation of concerns
+- Dividing your code into different parts (module, class, function) where each part handles a separate job of concern. This make your codes easier to manage, understand and change because you can focus on one part without messing up others.
+### Print and Logging
+
+| **Print**                           | **Logging**                                        |
+| ----------------------------------- | -------------------------------------------------- |
+| Simple, easy to use                 | Flexible configuration                             |
+| Hard to control output              | Multiple log levels (DEBUG, INFO, WARNING...)      |
+| No severity levels                  | Easy to enable/disable, according to configuration |
+| Hard to turn off when deployed      | Automatically add time, file, line of code         |
+| Does not save information like time | Can direct logs to file, email...                  |
+![[Pasted image 20250610114010.png]]
 ## SOLID & Design Patterns
 
-
----
-# Back Matter
-
-**Source**
-- based_on: [[AIO 2025]]
-
-**References**
-- 
-
-**Target**
-<!-- Link to project note or externally published content. -->
-- 
-
-**Tasks**
-- 
-
-**Questions**
-- 
 ---
 #   Back Matter
 
@@ -127,3 +132,6 @@ Pythonic means making the most of Python's unique features and characteristics t
 
 **References**
 - 
+**Task**
+- Review code examples
+- Do the exercises in the slide
