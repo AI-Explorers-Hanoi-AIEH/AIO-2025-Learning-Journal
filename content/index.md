@@ -11,7 +11,6 @@ We are a group of curious learners participating in **AIO2025**, a program desig
 ## Modules
 [[Module 1]]
 
-
 ✍️ Why This Blog?
 
 Inspired by the **Feynman Technique**, we believe the best way to truly understand something is to **explain it in our own words**. This blog is our shared space to:
