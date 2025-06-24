@@ -4,7 +4,7 @@ updated: 2025-06-15T22:29:00
 ---
 # Week 2 Module 1
 ## Notes
-[[content/Module_1/Week_2/notes/Delving into List]]
+[[OOP]]
 
 
 ---
